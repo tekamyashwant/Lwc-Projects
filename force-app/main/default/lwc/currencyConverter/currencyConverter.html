@@ -24,9 +24,9 @@
     <template lwc:if={showOutput}>
     <div class="formatfile slds-var-p-around_small">
       <!-- Output -->
-      <p> Converted Value :
-        <lightning-formatted-number value={convertedValue} format-style="currency" currency-code={tocurrency}
-          currency-display-as="name"></lightning-formatted-number>
+      <p> Converted Value : <b>{convertedValue} {toCurrency}</b>
+        <!-- <lightning-formatted-number value={convertedValue} format-style="currency" currency-code={tocurrency}
+          currency-display-as="name"></lightning-formatted-number> -->
       </p>
     </div>
     </template>
